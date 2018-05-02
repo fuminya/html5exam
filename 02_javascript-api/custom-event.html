@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Custom Event</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div id="level1">
+    click at level1
+  </div>
+  <script>
+  window.onload = function() {
+    document.getElementById('level1').addEventListener('click', function(){
+      alert('click!');
+    }, false);
+
+    var customEvent = new Event('click');
+    document.getElementById('level1').dispatchEvent(customEvent);
+  }
+  </script>
+</body>
+</html>
