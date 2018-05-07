@@ -5,6 +5,7 @@
 ## 履歴
 
 * 2017/6/4 HTML5 Professional Exam Level1合格
+* 2018/5/3 HTML5 Professional Exam Level2 Ver2.0合格
 
 ## リンク
 
